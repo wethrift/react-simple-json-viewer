@@ -25,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/wethrift/react-simple-json-viewer/issues"
   },
-  "homepage": "https://github.com/wethrift/react-simple-json-viewer#readme"
+  "homepage": "https://github.com/wethrift/react-simple-json-viewer#readme",
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "devDependencies": {
+    "react": "^18.2.0"
+  }
 }
