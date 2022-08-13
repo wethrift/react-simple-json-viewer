@@ -1,4 +1,6 @@
+import React from 'react'
 import { css } from '@emotion/css'
+import Type from './data_types/type'
 
 const JsonViewer = props => {
   return (
@@ -6,11 +8,17 @@ const JsonViewer = props => {
       className={css({
         fontFamily: 'monospace',
         color: '#333',
+        '& ul, & li': {
+          listStyleType: 'none',
+        },
+        'ul:first-child': {
+          padding: 0,
+        },
         'span.rsjv-expander': {
           color: '#888',
         },
         'span.rsjv-expander:hover': {
-          pointer: 'cursor',
+          cursor: 'pointer',
         },
         'span.rsjv-value': {
           color: '#3d94bf',

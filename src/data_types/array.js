@@ -1,3 +1,4 @@
+import React from 'react'
 import Type from './type'
 
 const ArrayType = props => {
