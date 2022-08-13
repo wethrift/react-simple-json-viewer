@@ -16,7 +16,10 @@ const KeyExpander = props => {
 
   return (
     <>
-      <span onClick={() => setExpanded(prev => !prev)}>
+      <span
+        className="rsjv-expander"
+        onClick={() => setExpanded(prev => !prev)}
+      >
         [{expanded ? '-' : '+'}]{' '}
       </span>
       <span>{keyName}: </span>
