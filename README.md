@@ -2,7 +2,9 @@
 
 A basic lightweight React (jsx) component for viewing data in an expandable way.
 
-[img]
+![null screenshot](screenshot.png)
+
+[DEMO](https://codesandbox.io/s/young-brook-6rdv0p?file=/src/App.js)
 
 # Usage
 
