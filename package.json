@@ -1,6 +1,6 @@
 {
   "name": "react-simple-json-viewer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A basic lightweight React component for viewing data in an expandable way.",
   "main": "./dist/index.js",
   "types": "./index.d.ts",
