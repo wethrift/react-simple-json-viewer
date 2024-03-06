@@ -1,9 +1,9 @@
-import React from 'react'
-import Type from './type'
+import React from "react";
+import Type from "./type";
 
-const ArrayType = props => {
-  const { value } = props
-
+const ArrayType = (props) => {
+  const { value } = props;
+  console.log(value);
   return (
     <ul>
       {value.map((v, i) => (
@@ -12,7 +12,7 @@ const ArrayType = props => {
         </li>
       ))}
     </ul>
-  )
-}
+  );
+};
 
-export default ArrayType
+export default ArrayType;
